@@ -1,0 +1,58 @@
+.stop-watch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stop-watch-container h3 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.stop-watch-show-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  border: 1px solid rgb(247, 240, 240);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 4px 40px rgba(23, 31, 70, 0.16);
+}
+
+.stop-watch-show-container div {
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.stop-watch-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.stop-watch-button-container button {
+  border: none;
+  height: 2rem;
+  width: 5rem;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 600;
+  box-shadow: 0px 2px 40px rgba(23, 31, 70, 0.16);
+  text-align: center;
+  /* background: red; */
+  cursor: pointer;
+}
+
+.reset {
+  background: rgb(243, 151, 76);
+}
+
+.start {
+  background: rgb(32, 203, 233);
+}
+
+.stop {
+  background: rgb(228, 87, 87);
+}
